@@ -1,3 +1,18 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.icon{
+    font-size: 1rem;
+}
+.icon span{
+    font-size: 1rem;
+}
+.logo{
+    font-size: 4rem;
+}
+
+li{
+    font-size: 0.7rem;
 }
