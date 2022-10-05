@@ -7,12 +7,13 @@
     background-color: black;
     height:100%;
 }
-.col-nav > div{
-    padding-bottom: 3rem ;
+.col-nav .col-navigation > div{
+  padding-bottom: 3rem;
+    
 }
 .col-main{
     width: calc(100vw - 220px);
-    background-color: blue;
+    background-color: var(--main-color);
     position: relative;
     overflow-y: auto;
 }
@@ -48,7 +49,11 @@
 }
 
 /* SECOND-SECTION */
-.second-section .col{
+.col-main .col{
     width: calc(100% / 6 - 1.25rem);
     margin: .625rem;
 }
+
+/* TIRD SECTION */
+
+

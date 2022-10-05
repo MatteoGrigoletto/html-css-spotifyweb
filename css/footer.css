@@ -1,4 +1,50 @@
 footer{
     height: 5.625rem;
-    background-color: grey;
+    background-color: var(--footer-color);
 }
+.footer-section , .footer-section .row{
+    height: 100%;
+    width: 100%;
+}
+/* COL-LEFT */
+.footer-section .col-25{
+    width: 25%;
+}
+
+/* COL MIDDLE */
+.footer-icon{
+    justify-content: center;
+}
+.footer-section .col-50{
+    width: 50%;
+    justify-content: center;
+    
+}
+.footer-icon, .footer-right, .footer-left  {
+    font-size: 1.5rem;
+    padding: .625rem;
+}
+.footer-icon > div, .footer-right > div{
+    padding: 0rem 1.25rem 0rem 1.25rem;
+}
+.footer-section .song-bar{
+   text-align: center;
+}
+
+
+/* COL RIGHT */
+.footer-right{
+    justify-content: flex-end;
+}
+
+
+
+.footer-section img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.footer-section .col > div{
+    align-items: center; 
+    width: 100%;
+}
+

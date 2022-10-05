@@ -10,11 +10,16 @@ body{
 .container-vh{
     height: calc(100% - 5.625rem);
 }
-.flex{
-    display: flex;
-   
-}
 
+/* GENERAL */
+.flex{
+    display: flex; 
+}
+.flex-cnt{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +31,10 @@ img{
 .preference-list ul{
     text-decoration-style: none;
     list-style: none;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
