@@ -1,9 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    color: white;
 }
 
 /* col nav */
+.col-nav{
+    color: var(--text-color-nav);
+}
 .logo{
     font-size: 4rem;
 }
@@ -21,9 +23,18 @@ body{
 .icon li > * , .icon > p > *{
     vertical-align: middle;
 }
+/* col-main */
+.col-main{
+    color: var(--text-color-nav);
+}
+.title-section, h5{
+    color: var(--text-color-footer);
+}
 
 /* footer */
-
+footer{
+    color: var(--text-color-footer);
+}
 .footer-left h5{
     font-size: 0.8rem;
 }

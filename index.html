@@ -21,20 +21,21 @@
         <div class="col col-nav flex-column">  
             <div class="col-navigation">
                 <div>
-                    <h1><img src="img/logo.svg" alt=""></h1>
+                    <h1><img class="display-on" src="img/logo.svg" alt="">
+                        <img  class="display-off" src="img/logo-small.svg" alt=""></h1>
                 </div>
 <!-- nav icon -->
                 <div>
                     <nav>
                         <ul class="icon">
-                            <li><img src="img/home.svg" alt=""><span>Home</span><span class="line-nav"></span></li>
-                            <li><img src="img/search.svg" alt=""><span>Cerca</span></li>
-                            <li><img src="img/libreria.svg" alt=""><span>La tua libreria</span></li>
+                            <li><img src="img/home.svg" alt=""><span class="display-on">Home</span></li>
+                            <li><img src="img/search.svg" alt=""><span class="display-on">Cerca</span></li>
+                            <li><img src="img/libreria.svg" alt=""><span class="display-on">La tua libreria</span></li>
                         </ul>
                     </nav>
                 </div>
 <!-- list playlist -->
-                <div class="playlist">
+                <div class="playlist display-on">
                     <div>
                         <h5>Playlist</h5>
                         <small><i class="fa-solid fa-circle-plus"></i> Crea Playlist</small>
@@ -61,7 +62,7 @@
             <div class="bottom-nav">
                 <div class="icon">
                     <p><img src="img/download.svg" alt=""><span> Installa app</span></p>
-                    <hr>
+                    <hr class="display-on">
                     <p><img src="img/profile.svg" alt=""><span> John Doe</span></p>
                 </div>
             </div>   
@@ -93,7 +94,7 @@
 <!-- second section -->
             <section class="second-section">
 <!--  -->
-                <div>
+                <div class="title-section">
                     <h3>Recently played</h3>
                 </div>
                 <div class="row">
@@ -161,7 +162,7 @@
             </section>
 <!-- tird section -->
             <section class="tird-section">
-                <div>
+                <div class="title-section">
                     <h3>Creato per John Doe</h3>
                     <h6>Piu' ascolti, piu' accurati saranno i suggerimenti</h6>
                 </div>
@@ -188,7 +189,7 @@
             </section>
 <!-- fourth section -->
             <section class="fourth-section">
-                <div>
+                <div class="title-section">
                     <h3>Artisti piu' popolari</h3>
                     <h6>Piu' ascolti, piu' accurati saranno i suggerimenti</h6>
                 </div>
@@ -248,7 +249,9 @@
                     </div>
                     <div class="song-bar flex ">
                         <div>0.25</div>
-                        <div class="time-bar"></div>
+                        <div class="time-bar">
+                             <div class="time-song"></div>
+                        </div>
                         <div>4.35</div> 
                     </div>
                 </div>
@@ -258,7 +261,9 @@
                         <div><i class="fa-solid fa-list"></i></div>
                         <div><i class="fa-solid fa-display"></i></div>
                         <div><i class="fa-solid fa-volume-high"></i></div>
-                        <div class="audio-bar"></div>
+                        <div class="audio-bar">
+                            <div class="audio-time"></div>
+                        </div>
                     </div>
                 </div>
             </div>

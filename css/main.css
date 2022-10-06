@@ -2,6 +2,9 @@
   .col-main section:not(:first-child){
     padding: 2rem;
   }
+  .title-section{
+    padding-bottom: 1.25rem;
+  }
 
 /* COL NAV */
 .col-nav{
@@ -10,6 +13,7 @@
     height:100%;
     padding: 1.25rem 1.25rem 1rem 1.25rem;
     position: relative;
+    overflow-y: auto;
 }
 .col-nav .col-navigation > div{
   padding-bottom: 3rem; 
@@ -26,6 +30,9 @@
 .col-nav .icon img {
     width: 1.5rem ;
     height: 1.5rem;
+}
+.display-off{
+    display: none;
 }
 
 /* COL MAIN */

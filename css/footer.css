@@ -8,9 +8,6 @@ footer{
     height: 100%;
     width: 100%;
 }
-.footer-section .row{
-    justify-content: space-between;
-}
 /* COL-LEFT */
 .footer-section .col-25{
     width: calc(100% / 4);
@@ -34,7 +31,7 @@ footer{
 }
 .footer-icon, .footer-right, .footer-left, .col-25 .row {
     font-size: 1.5rem;
-    padding: .625rem;
+    padding: 0rem .625rem;
 }
 .footer-icon > div, .footer-right > div{
     padding: 0rem 1.25rem 0rem 1.25rem;
@@ -45,20 +42,22 @@ footer{
 /* TIME-BAR */
 .song-bar{
     justify-content: center;
+
 }
 .time-bar{
     width: 50%;
-    height: 2px;
-    background-color: aliceblue;
+    height: .25rem;
+    background-color: var(--text-color-nav);
     margin: 0rem 3rem ;
+    position: relative;
 }
 
 
 
 /* COL RIGHT */
-.footer-right{
+/* .footer-right{
     justify-content: flex-end;
-}
+} */
 .footer-section img{
     width: 3.125rem;
     height: 3.125rem;
@@ -71,8 +70,9 @@ footer{
 
 .audio-bar{
     width: 25%;
-    height: .1875rem;
-    background-color: aliceblue;
+    height: .25rem;
+    background-color: var(--text-color-nav);
+    position: relative;
 }
 
 

@@ -19,14 +19,13 @@
     .col-main .col{
         width: calc(100% / 2 - 1.25rem);
     }
-  
- 
+
 }
 
 /* MEDIA QUERY 600 */
 
 @media screen and (max-width:600px) {
-    .col-main{
+    .col-main, .upgrade{
         width: calc(100vw - 50px);
     }
     .col-nav{
@@ -35,4 +34,14 @@
     span, .playlist{
         display: none;
     }
+    .display-on{
+        display: none;
+    }
+    .display-off{
+        display: block;
+    }
+    .col-nav{
+        padding: .3125rem .625rem;
+    }
+
 }
