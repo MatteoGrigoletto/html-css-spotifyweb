@@ -3,16 +3,30 @@ body{
     color: white;
 }
 
-.icon{
-    font-size: 1rem;
-}
-.icon span{
-    font-size: 1rem;
-}
+/* col nav */
 .logo{
     font-size: 4rem;
 }
+.col-nav small{
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+.col-nav li, .col-nav h5{
+    padding-bottom: 0.5rem;
 
-li{
-    font-size: 0.7rem;
+}
+.col-nav h5{
+    font-size: 1.25rem;
+}
+.icon li > * , .icon > p > *{
+    vertical-align: middle;
+}
+
+/* footer */
+
+.footer-left h5{
+    font-size: 0.8rem;
+}
+.footer-left p{
+    font-size: 0.4rem;
 }

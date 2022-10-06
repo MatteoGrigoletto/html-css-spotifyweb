@@ -1,36 +1,53 @@
 /* GENERAL MAIN */
-  
+  .col-main section:not(:first-child){
+    padding: 2rem;
+  }
 
-/* col nav */
+/* COL NAV */
 .col-nav{
     width: 220px;
     background-color: black;
     height:100%;
+    padding: 1.25rem 1.25rem 1rem 1.25rem;
+    position: relative;
 }
 .col-nav .col-navigation > div{
-  padding-bottom: 3rem;
-    
+  padding-bottom: 3rem; 
 }
+
+.col-nav .bottom-nav .icon > p{
+    padding: 0.5rem 0rem;
+}
+.col-nav .list-playlist > * {
+    padding: 0.5rem 0rem;
+}
+
+/* col nav img */
+.col-nav .icon img {
+    width: 1.5rem ;
+    height: 1.5rem;
+}
+
+/* COL MAIN */
+
 .col-main{
     width: calc(100vw - 220px);
     background-color: var(--main-color);
     position: relative;
     overflow-y: auto;
 }
-
-/* COL MAIN */
-/* header col-main */
+/* header section */
 .upgrade{
     position:fixed;
     top: 0;
     height: 5.625rem;
-    width: calc(100% - 220px);
+    width: calc(100vw - 220px);
     background-color: black;
     z-index: 10;
     justify-content: flex-end;
     align-items: center;
 }
-/*button header-main */
+/*button header-section */
 .upgrade button{
     color: white;
     background-color: transparent;
@@ -41,11 +58,14 @@
 /* FIRST-SECTION */
 
 .first-section ul{
-    padding-top: 7.5rem;
+    padding-top: 5rem;
     justify-content: center; 
 }
 .first-section li{
-    padding: 0rem 1.5625rem 0rem 1.5625rem ;
+    padding: 1rem ;
+}
+.first-section li:first-child{
+    position: relative;
 }
 
 /* SECOND-SECTION */
@@ -55,5 +75,11 @@
 }
 
 /* TIRD SECTION */
+
+
+/* FOURTH SECTION */
+.fourth-section img{
+    border-radius: 100%;
+}
 
 

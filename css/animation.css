@@ -1,0 +1,23 @@
+/* nav-line */
+.line-nav{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--hover-color-main);
+    height: 1.875rem;
+    width: .1875rem;
+    top: 15%;
+    left:0;
+}
+
+/* first section line */
+
+.first-section .line{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 3rem;
+    height: 0.1rem;
+    background-color: var(--hover-color-main);
+}

@@ -1,2 +1,38 @@
+/* MEDIA QUERY 1100 */
+
+@media screen and (max-width:1100px) {
+    .col-main .col{
+        width: calc(100% / 4 - 1.25rem);
+    }
+    .fourth-section img{
+        border-radius: 0%;
+    }
+    
+}
+
+
+
+
+/* MEDIA QUERY 700 */
+
+@media screen and (max-width: 700px) {
+    .col-main .col{
+        width: calc(100% / 2 - 1.25rem);
+    }
+  
+ 
+}
+
 /* MEDIA QUERY 600 */
 
+@media screen and (max-width:600px) {
+    .col-main{
+        width: calc(100vw - 50px);
+    }
+    .col-nav{
+        width: 50px;
+    }
+    span, .playlist{
+        display: none;
+    }
+}
