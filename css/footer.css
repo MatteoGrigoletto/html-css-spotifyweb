@@ -3,6 +3,7 @@ footer{
     width: 100vw;
     background-color: var(--footer-color);
     position: relative;
+    padding: 0.5rem;
 }
 .footer-section , .footer-section .row{
     height: 100%;
@@ -29,11 +30,11 @@ footer{
     justify-content: center;
     
 }
-.footer-icon, .footer-right, .footer-left, .col-25 .row {
+.footer-icon, .col-25 .row {
     font-size: 1.5rem;
     padding: 0rem .625rem;
 }
-.footer-icon > div, .footer-right > div{
+.footer-icon > div{
     padding: 0rem 1.25rem 0rem 1.25rem;
 }
 .footer-section .song-bar{
@@ -48,16 +49,16 @@ footer{
     width: 50%;
     height: .25rem;
     background-color: var(--text-color-nav);
-    margin: 0rem 3rem ;
+    margin: 0rem 1rem ;
     position: relative;
 }
 
 
 
 /* COL RIGHT */
-/* .footer-right{
+.footer-right{
     justify-content: flex-end;
-} */
+}
 .footer-section img{
     width: 3.125rem;
     height: 3.125rem;
@@ -65,6 +66,9 @@ footer{
 .footer-section .col > div{
     align-items: center; 
     width: 100%;
+}
+.footer-right > div{
+    padding: 0rem 0.5rem ;
 }
 /* audio-bar */
 
@@ -74,6 +78,7 @@ footer{
     background-color: var(--text-color-nav);
     position: relative;
 }
+
 
 
 

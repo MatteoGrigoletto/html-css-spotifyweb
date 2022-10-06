@@ -17,14 +17,14 @@ li:hover, .bottom-nav span:hover, .col-25 i:hover{
 }
 /* hover album */
 .second-section .col-album:hover .animation-album {
-        position: absolute;
-        background-color: rgba(0, 0,0, 0.5) ;
-        top: 0%;
-        left:0% ;
-        width: 100%;
-        height: 100%;
-    }
-    .col-album:hover .animation-album i{
+    position: absolute;
+    background-color: rgba(0, 0,0, 0.5) ;
+    top: 0%;
+    left:0% ;
+    width: 100%;
+    height: 100%;
+}
+.col-album:hover .animation-album i{
     position: absolute;
     font-size: 5rem;
     top: 50%;
