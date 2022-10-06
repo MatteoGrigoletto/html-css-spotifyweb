@@ -18,7 +18,11 @@
 .col-nav .col-navigation > div{
   padding-bottom: 3rem; 
 }
-
+/* playlist */
+.playlist i{
+    font-size: 30px;
+    vertical-align: middle;
+}
 .col-nav .bottom-nav .icon > p{
     padding: 0.5rem 0rem;
 }
@@ -79,6 +83,12 @@
 .col-main .col{
     width: calc(100% / 6 - 1.25rem);
     margin: .625rem;
+}
+.col-album{
+    position: relative; 
+}
+.animation-album i{
+    display: none;
 }
 
 /* TIRD SECTION */
