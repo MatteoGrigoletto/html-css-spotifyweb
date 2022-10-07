@@ -12,13 +12,22 @@
     background-color: black;
     height:100%;
     padding: 1.25rem 1.25rem 1rem 1.25rem;
-    position: relative;
     overflow-y: auto;
 }
 .col-nav .col-navigation > div{
   padding-bottom: 3rem; 
 }
 /* playlist */
+.playlist{
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 100%;
+}
+.list-playlist{
+    height: 100%;
+    overflow-y: auto;
+}
 .playlist i{
     font-size: 30px;
     vertical-align: middle;
@@ -29,7 +38,9 @@
 .col-nav .list-playlist > * {
     padding: 0.5rem 0rem;
 }
-
+.col-navigation .icon {
+    position: relative;
+}
 /* col nav img */
 .col-nav .icon img {
     width: 1.5rem ;

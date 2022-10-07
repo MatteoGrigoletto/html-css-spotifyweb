@@ -15,6 +15,18 @@ li:hover, .bottom-nav span:hover, .col-25 i:hover{
     color: var(--text-color-footer);
     cursor: pointer;
 }
+
+.col-navigation .icon li:first-child::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2rem;
+    width: .1rem;
+    top: -3%;
+    left: -10%;
+    background-color: var(--hover-color-main);
+  
+}
 /* hover album */
 .second-section .col-album:hover .animation-album {
     position: absolute;
@@ -44,6 +56,18 @@ li:hover, .bottom-nav span:hover, .col-25 i:hover{
     width: 25%;
     height: 100%;
     background-color: var(--text-color-footer);
+}
+/* animation time line */
+.time-song:hover::after, .audio-time:hover::after{
+    content:'';
+    display: block;
+    position: absolute;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 100%;
+    background-color: white;
+    left: 100%;
+    top: -200%;
 }
 
 /* hover time-line */
